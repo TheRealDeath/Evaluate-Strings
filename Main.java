@@ -15,12 +15,12 @@ public class Main
     	if(myArray2[0].length() > myArray2[1].length())
       {
         l = eval(myArray2[0]);
-        System.out.println(true ? l == Integer.parseInt(myArray2[1].trim()): false);
+        System.out.println(l == Integer.parseInt(myArray2[1].trim()));
       }
       else
       {
         l = eval(myArray2[1]);
-        System.out.println(true ? l == Integer.parseInt(myArray2[0].trim()): false);
+        System.out.println(l == Integer.parseInt(myArray2[0].trim()));
       }
             
     }
